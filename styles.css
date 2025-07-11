@@ -1,0 +1,24 @@
+.header-flex-container {
+    display:flex;
+    justify-content:space-between;
+    background-color:#1F2937;
+}
+
+.Logo {
+    margin-left:150px;
+    font-size:24px;
+    color:#F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color:#F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    display:flex;
+    margin-right:150px;
+    gap:25px;
+}

@@ -1,76 +1,100 @@
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: #F9FAF8;
+}
+
+p {
+    margin: 0;
+}
+
 .header-flex-container {
-    display:flex;
-    justify-content:space-between;
-    background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
     padding: 20px 250px;
 }
 
 .logo {
-    font-size:24px;
-    color:#F9FAF8;
+    font-size: 24px;
+    color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
-    font-weight:bold;
-}
-
-a{
-    color:#F9FAF8;
-}
-
-p {
-    margin:0;
+    font-weight: bold;
 }
 
 .hero-heading {
-    font-size:40px;
-    margin-bottom:0;
+    font-size: 40px;
+    margin-bottom: 0;
 }
 
 
 .nav-links {
-    display:flex;
-    gap:40px;
+    display: flex;
+    gap: 40px;
 }
 
-.hero-text{
-    display:flex;
-    flex-direction:column;
-    padding-left:250px;
-    padding-right:80px;
-    padding-top:20px;
-    padding-bottom:50px;
-    background-color:#1F2937;
-    color:#F9FAF8;
-    max-width:300px;
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    max-width: 300px;
 }
 
 .hero {
-    display:flex;
-    background-color:#1F2937;
-    padding:40px 0px; 
+    display: flex;
+    background-color: #1F2937;
+    padding: 40px 0px;
 }
 
 .hero-image {
-    height:200px;
-    width:500px;
-    margin-top:40px;
-    margin-left:40px;
+    height: 200px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 .hero-button {
-    background-color:#3882F6;
+    background-color: #3882F6;
     font-family: 'Roboto', sans-serif;
-    color:#F9FAF8;
-    font-weight:bold;
-    padding:8px;
-    max-width:175px;
-    margin-top:10px;
-    border:none;
-    border-radius:5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px;
+    max-width: 175px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
+.information-heading {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.information-images-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.information-images {
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    text-align: center;
+}

@@ -163,3 +163,10 @@ h3 {
     color: #f9FAF8;
     font-weight: 1000;
 }
+
+.footer-note {
+    text-align: center;
+    background-color: #1F2937;
+    color: #f9FAF8;
+    padding:30px;
+}
